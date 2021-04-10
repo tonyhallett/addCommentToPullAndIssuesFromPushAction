@@ -4915,7 +4915,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.addCommentToPullAndIssues = void 0;
 const useOctokit_1 = __nccwpck_require__(9502);
 const core = __importStar(__nccwpck_require__(2186));
-const inputHelpers_1 = __nccwpck_require__(5620);
+const inputHelpers_1 = __nccwpck_require__(4684);
 const getPullRequestIssuesActionWorker_1 = __nccwpck_require__(488);
 const github_1 = __nccwpck_require__(5438);
 function addCommentToPullAndIssues(pullRequest, commentStr) {
@@ -13853,14 +13853,6 @@ function plural(ms, n, name) {
   }
   return Math.ceil(ms / n) + ' ' + name + 's';
 }
-
-
-/***/ }),
-
-/***/ 5620:
-/***/ ((module) => {
-
-module.exports = eval("require")("../../src/helpers/inputHelpers");
 
 
 /***/ }),
