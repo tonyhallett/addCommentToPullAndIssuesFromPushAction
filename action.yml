@@ -2,6 +2,10 @@ name: 'addcommenttopullandissuesfrompushaction'
 description: 'add comment to pull and issues from push workflow'
 author: 'tony hallett'
 inputs:
+  comment:
+    description: the comment to add
+    required: false
+    default: hello world !
   addTo:
     description: add to pull or issues or pullandissues
     required: true
